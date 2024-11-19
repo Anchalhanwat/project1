@@ -1,180 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="bigbanner">
+        <section class="menu">
+            <div class="menu1">
+               <img src="/media/logo.jpeg" alt="">
+            </div>
+            <div class="menu2">
+               <a href="">home</a>
+               <a href="">services</a>
+               <a href="">reviews</a>
+               <a href="">contact</a>
+            </div>
 
-.bigbanner{
-    background-image: linear-gradient(to right,rgb(54, 4, 4),rgb(226, 28, 28));
-    .menu{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px;
-        a{
-            text-decoration: none;
-            text-transform: uppercase;
-            padding: 0px 10px;
-            font-size: 30px;
-            color: aliceblue;
-        }
-        .menu1{
-            background-color: red;
-            border-radius: 10px;
-            width: fit-content;
-            text-transform: capitalize;
-            h3{
-                color: aliceblue;
-                font-size: 8px;
-                padding-left: 5px;
-            }
-        }
-   
-}
-}
-.banner1{
-    img{
-        height: 500px;
-        width: 1300px;
-        padding: 0px 100px 100px 100px;
-    }
-}
-#hed{
-    font-size: 120px;
-    padding: 0px 50px 0px 50px;
-    color: aliceblue;
+      </section>
+    <section class="banner1">
+        <h1 id="hed">best car washing service in the city.</h1>
+        <img src="/css/media/carpic.jpeg" alt="">
+    </section>
+   </section>
+<section class="singh1">
+    <h1>services & pricing</h1>
+</section>
+<section class="add">
+    <div class="box1">
+        <img src="/css/media/exterior-wash.jpeg" alt="">
+        <h2>exterrior wash</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, vitae reprehenderit rerum sint deserunt corporis explicabo hic iusto dolorum libero nulla, eligendi in enim tempore alias voluptatum? Distinctio, blanditiis non.</p>
+        <h3>price: $15(starts)</h3>
+    </div>
+    <div class="box1">
+        <img src="/css/media/interior-wash.jpeg" alt="">
+        <h2>exterrior wash</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, vitae reprehenderit rerum sint deserunt corporis explicabo hic iusto dolorum libero nulla, eligendi in enim tempore alias voluptatum? Distinctio, blanditiis non.</p>
+        <h3>price: $15(starts)</h3>
+    </div>
+    <div class="box1">
+        <img src="/css/media/all-wash.jpeg" alt="">
+        <h2>exterrior wash</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, vitae reprehenderit rerum sint deserunt corporis explicabo hic iusto dolorum libero nulla, eligendi in enim tempore alias voluptatum? Distinctio, blanditiis non.</p>
+        <h3>price: $15(starts)</h3>
+    </div>
+    <div class="box1" id="unic">
+        <img src="/css/media/car-repair.jpeg" alt="">
+        <h2>exterrior wash</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, vitae reprehenderit rerum sint deserunt corporis explicabo hic iusto dolorum libero nulla, eligendi in enim tempore alias voluptatum? Distinctio, blanditiis non.</p>
+        <h3>price: $15(starts)</h3>
+    </div>
+</section>
+    <section class="banner2">
+       <div class="boxh">
+        <h1>home car wash</h1>
+        <h3>we will wash and clean your car at your home or garage.</h3>
+        <h2>from $99</h2>
+       </div>
+       <div>
+        <img src="/css/media/home-carwash.jpeg" alt="">
 
-}
-.singh1{
-    font-size: 50px;
-    h1{
-        text-transform: capitalize;
-    }
-}
-.add{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-    padding: 50px;
-    .box1{
-        height: 600px;
-        width: 400px;
-        img{
-            height: 300px;
-            width: 400px;
-            border-radius: 10px;
-        }
-        h2{
-            color: blue;
-            font-size: 30px;
-            text-transform: capitalize;
-        }
-        h3{
-            color: rgb(222, 28, 28);
-            font-size: 25px;
-        }
+       </div>
+    </section>
+    <section class="addsection">
+        <h1>customer reviews</h1>
 
-    }
-    p{
-        font-size: 20px;
-    }
-   
-}
-#unic{
-    height: 700px;
-   img{
-    width: 1400px;
-    height: 500px;
-   }
-   p{
-    width: 1440px;
-   }
-}
-.banner2{
-    display: flex;
-    justify-content: space-around;
-    background-color: yellow;
-    h3{
-        font-size: 40px;
-    }
-    h2{
-        font-size: 40px;
-        color: red;
-        text-transform: capitalize;
-    }
-    
-    h1{
-        font-size: 100px;
-        color: blue;
-        text-transform: uppercase;
-    }
-    img{
-        margin: 50px;
-        border-radius: 30px;
-        height: 500px;
-        width: 500px;
-    }
-    .boxh{
-        width: 600px;
-        font-family: sans-serif;
-    }
-}
-.addsection{
-    background-color: red;
-    padding-top: 50px;
-    h1{
-        font-size: 80px;
-        color: white;
-        padding: 0px 0px 0px 30px;
-        text-transform: capitalize;
-    }
-}
-.banner3{
-    display: flex;
-    justify-content: space-around;
-    border: 0.1px solid rgb(123, 111, 111);
-    color: white;
-    padding: 50px 20px ;
-    img{
-        height: 200px;
-        width: 200px;
-        border-radius: 50%;
-       padding: 0px 50px ;
+    <section class="banner3">
+        <div class="box2">
+            <img src="/css/media/human-1.jpeg" alt="">
+         </div>
+         <div>
+            <h3>totally recommended</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque eum sint asperiores autem. Ad cum ea sequi quis. Officiis numquam dolores modi laboriosam dolorem fuga illum eum, consequuntur non aperiam praesentium quis deleniti placeat eligendi perferendis ad facere! Aliquid dolor culpa labore commodi nisi dicta ducimus dignissimos magnam amet suscipit!</p>
+            <h2>john doe,NYC</h2>
+        </div>
 
-    }
-    h2{
-        font-size: 20px;
-    }
-    h3{
-        text-transform: capitalize;
-        font-size: 25px;
-    }
-    h3:after{
-        content:"⭐⭐⭐⭐⭐";
-    }
+    </section>
+    <section class="banner3">
+        <div class="box2">
+            <img src="/css/media/human-2.jpeg" alt="">
+         </div>
+         <div>
+            <h3>totally recommended</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque eum sint asperiores autem. Ad cum ea sequi quis. Officiis numquam dolores modi laboriosam dolorem fuga illum eum, consequuntur non aperiam praesentium quis deleniti placeat eligendi perferendis ad facere! Aliquid dolor culpa labore commodi nisi dicta ducimus dignissimos magnam amet suscipit!</p>
+            <h2>john doe,NYC</h2>
+        </div>
 
-}
-.contact{
-    background-color: rgb(43, 32, 32);
-    h1{
-        font-size: xx-large;
-        text-transform: uppercase;
-        color: white;
-        padding: 30px;
-    }
-    #msg{
-       height: 120px;
-       width: 1200px;
-       border-radius: 10px;
-      margin: 30px;
-    }
-    #name{
-        height: 40px;
-        width: 500px;
-        border-radius: 10px;
-        margin: 30px;
-    }
-    #button{
-        background-color: red;
-        padding: 20px;
-        border-radius: 30px;
-        margin: 30px;
-        color: white;
-        font-size: xx-large;
-    }
-}
+    </section>
+    <section class="banner3">
+        <div class="box2">
+            <img src="/css/media/human-3.jpeg" alt="">
+         </div>
+         <div>
+            <h3>totally recommended</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque eum sint asperiores autem. Ad cum ea sequi quis. Officiis numquam dolores modi laboriosam dolorem fuga illum eum, consequuntur non aperiam praesentium quis deleniti placeat eligendi perferendis ad facere! Aliquid dolor culpa labore commodi nisi dicta ducimus dignissimos magnam amet suscipit!</p>
+            <h2>john doe,NYC</h2>
+        </div>
+
+    </section>
+    <section class="banner3">
+        <div class="box2">
+            <img src="/css/media/human-4.jpeg" alt="">
+         </div>
+         <div>
+            <h3>totally recommended</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque eum sint asperiores autem. Ad cum ea sequi quis. Officiis numquam dolores modi laboriosam dolorem fuga illum eum, consequuntur non aperiam praesentium quis deleniti placeat eligendi perferendis ad facere! Aliquid dolor culpa labore commodi nisi dicta ducimus dignissimos magnam amet suscipit!</p>
+            <h2>john doe,NYC</h2>
+        </div>
+
+    </section>
+    <section class="banner3">
+        <div class="box2">
+            <img src="/css/media/human-5.jpeg" alt="">
+         </div>
+         <div>
+            <h3>totally recommended</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque eum sint asperiores autem. Ad cum ea sequi quis. Officiis numquam dolores modi laboriosam dolorem fuga illum eum, consequuntur non aperiam praesentium quis deleniti placeat eligendi perferendis ad facere! Aliquid dolor culpa labore commodi nisi dicta ducimus dignissimos magnam amet suscipit!</p>
+            <h2>john doe,NYC</h2>
+        </div>
+
+    </section>
+</section>
+    <section class="contact">
+        <h1>contact</h1>
+            <input type="text" placeholder="name*" id="name">
+            <input type="text" placeholder="email address*" id="name">
+            <input type="text" placeholder="message" id="msg"> <br>
+            <input type="submit" value="submit  >" id="button">
+    </section>
+</body>
+</html>
